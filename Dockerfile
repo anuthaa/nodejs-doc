@@ -11,6 +11,6 @@ RUN npm install
 #RUN npm build
 # Bundle app source
 COPY . /usr/src/app
-EXPOSE 8083
-CMD [ 'npm', 'build' ]
-
+EXPOSE 5000
+#CMD [ 'npm', 'build' ]
+RUN npn start
